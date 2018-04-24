@@ -1,0 +1,25 @@
+{
+  "name": "node-js-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for Node.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "less": "^3.0.2",
+    "mongoose": "^5.0.16",
+    "node-sass": "^4.8.3",
+    "vim": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
