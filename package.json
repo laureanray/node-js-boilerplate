@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "ejs": "^2.5.9",
     "express": "^4.16.3",
     "gulp": "^3.9.1",
@@ -17,6 +19,7 @@
     "less": "^3.0.2",
     "mongoose": "^5.0.16",
     "node-sass": "^4.8.3",
+    "request": "^2.86.0",
     "vim": "^0.1.0"
   },
   "devDependencies": {

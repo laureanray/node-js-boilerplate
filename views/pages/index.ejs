@@ -5,17 +5,30 @@
 </head>
 <body>
     <div class="container">
-       
-    <section class="main">
-        <h1> Node.js Boilerplate</h1>
-        <div class="separator"></div>
-         
-        
-    </section>
-    <!--  Footer  -->
-    <footer>
-        <% include ../partials/footer %>
-    </footer>    
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <input type="text" placeholder="First Name" name="firstName">
+                <input type="text" placeholder="Middle Initial" name="middleInitial">
+                <input type="text" placeholder="Last Name" name="lastName">
+            </div>
+            
+            <label for="name"> School Information </label>
+            <div class="form-group">
+                <input type="text" placeholder="University/School" name="school">
+                <!-- <input type="text" placeholder="Year" name="year">
+                <input type="text" placeholder="Section" name="section"> -->
+            </div>
+            <label for="name"> Personal Information </label>
+            <div class="form-group">
+                <input type="email" placeholder="Email" name="email">
+                <input type="text" placeholder="Phone Number" name="mobile">
+          
+            </div>
+            <small> Please make sure that your email is correct as we will email you the generated password.</small>
+            <div class="submit-register">
+                <button name="submit"> Registers >  </button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
