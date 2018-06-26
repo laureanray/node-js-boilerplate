@@ -2,7 +2,7 @@
   "name": "node-js-boilerplate",
   "version": "1.0.0",
   "description": "A simple boilerplate for Node.js applications",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
     "gulp": "^3.9.1",
     "gulp-less": "^4.0.0",
     "gulp-sass": "^4.0.1",
+    "heroku-cli": "^7.0.9",
     "less": "^3.0.2",
     "mongoose": "^5.0.16",
     "node-sass": "^4.8.3",
@@ -24,5 +25,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
+  },
+  "engines": {
+    "node": "8.9.0"
   }
 }
